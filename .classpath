@@ -6,6 +6,7 @@
 	<classpathentry kind="src" path="Ex4_AreaCirculo"/>
 	<classpathentry kind="src" path="Ex5_NumDivisible"/>
 	<classpathentry kind="src" path="Ex6_PrecioIva"/>
+	<classpathentry kind="src" path="Ex7_NumDel1al100"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
