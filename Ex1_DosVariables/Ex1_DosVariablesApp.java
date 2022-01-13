@@ -1,5 +1,5 @@
 
-public class Ex1_DosVariables 
+public class Ex1_DosVariablesApp 
 {
 
 	public static void main(String[] args) 

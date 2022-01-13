@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex6_PrecioIva 
+public class Ex6_PrecioIvaApp 
 {
 
 	public static void main(String[] args) 

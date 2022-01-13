@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ex4_AreaCirculo {
+public class Ex4_AreaCirculoApp {
 
 	public static void main(String[] args) {
 		
