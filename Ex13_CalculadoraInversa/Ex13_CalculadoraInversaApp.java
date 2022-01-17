@@ -3,14 +3,10 @@ import java.util.Scanner;
 public class Ex13_CalculadoraInversaApp {
 
 	public static void main(String[] args) {
-		
-		//1. 2 variables numeros int
-		//2. signo aritmetico String que hará la operacion
-		//3. mostrar resultado en cuadro de dialogo
-		
+				
 		int num1=0, num2=0, resultado=0;
-		//boolean finalizado = false;
-		String operador = "";
+		double resultadoDouble;
+		String operador;
 		
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Selecciona una opcion:");
@@ -21,10 +17,9 @@ public class Ex13_CalculadoraInversaApp {
 				+ "\n^: Operar la base con el exponente"
 				+ "\n%: modulo, resto de la división entre operando1 y operando2.");
 		operador = teclado.next();
-		
 		switch(operador)
 		{
-			case "+":
+			case '+':
 				System.out.println("Has seleccionado suma");
 				System.out.println("Introduce el primer numero");
 				num1=teclado.nextInt();
@@ -58,7 +53,8 @@ public class Ex13_CalculadoraInversaApp {
 				System.out.println("Introduce el segundo numero");
 				num2=teclado.nextInt();
 				resultado = num1 / num2;
-				System.out.println("El resultado de la division es: "+resultado);
+				resultadoDouble = resultado;
+				System.out.println("El resultado de la division es: "+resultadoDouble);
 				break;
 			case "^":
 				System.out.println("Has seleccionado operar la base con el exponente");
@@ -67,7 +63,8 @@ public class Ex13_CalculadoraInversaApp {
 				System.out.println("Introduce el segundo numero");
 				num2=teclado.nextInt();
 				resultado = num1 ^ num2;
-				System.out.println("El resultado de operar la base con el exponente es: "+resultado);
+				System.out.println("El resultado de operar la base con el exponente es: "
+						+ ""+resultado);
 				break;
 			case "%":
 				System.out.println("Has seleccionado el modulo");
@@ -82,7 +79,6 @@ public class Ex13_CalculadoraInversaApp {
 				System.out.println("Error: No has seleccionado el operador adecuado");
 				break;
 		}
-		
 		teclado.close();
 	}
 
