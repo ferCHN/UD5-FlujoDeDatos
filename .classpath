@@ -7,6 +7,12 @@
 	<classpathentry kind="src" path="Ex5_NumDivisible"/>
 	<classpathentry kind="src" path="Ex6_PrecioIva"/>
 	<classpathentry kind="src" path="Ex7_NumDel1al100"/>
+	<classpathentry kind="src" path="Ex8_ForNumDel1al100"/>
+	<classpathentry kind="src" path="Ex9_Del1al100Divisible2y3"/>
+	<classpathentry kind="src" path="Ex10_NumVentas"/>
+	<classpathentry kind="src" path="Ex11_DiaSemana"/>
+	<classpathentry kind="src" path="Ex12_StringContrasena"/>
+	<classpathentry kind="src" path="Ex13_CalculadoraInversa"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
