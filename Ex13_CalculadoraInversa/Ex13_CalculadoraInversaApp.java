@@ -19,7 +19,7 @@ public class Ex13_CalculadoraInversaApp {
 		operador = teclado.next();
 		switch(operador)
 		{
-			case '+':
+			case "+":
 				System.out.println("Has seleccionado suma");
 				System.out.println("Introduce el primer numero");
 				num1=teclado.nextInt();
